@@ -71,6 +71,7 @@ namespace _10._1
             // Знову викликаємо метод show()
             bravo.Show();
 
+            Console.CursorVisible = false;
             Console.ReadKey();
         }
     }

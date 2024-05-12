@@ -56,19 +56,14 @@ namespace _10._1
     {
         static void Main(string[] args)
         {
-            // Створення об'єкта класу Bravo з викликом конструктора з двома аргументами
             Bravo bravo = new Bravo(1, "Один");
 
-            // Виклик методу show()
             bravo.Show();
 
-            // Зміна значення цілочисельного поля
             bravo.Set(2);
 
-            // Зміна значення текстового поля
             bravo.Set("Два");
 
-            // Знову викликаємо метод show()
             bravo.Show();
 
             Console.CursorVisible = false;

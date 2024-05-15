@@ -22,7 +22,7 @@ namespace _10._1
 
         public virtual void Show()
         {
-            Console.WriteLine($"Значення цілочисельного поля: {intValue}");
+            Console.WriteLine($"Значення числового поля : {intValue}");
         }
     }
 
@@ -48,7 +48,7 @@ namespace _10._1
         public override void Show()
         {
             base.Show();
-            Console.WriteLine($"Значення текстового поля: {textField}");
+            Console.WriteLine($"Значення текстового поля : {textField}");
         }
     }
 

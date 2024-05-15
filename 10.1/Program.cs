@@ -56,6 +56,9 @@ namespace _10._1
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
+
             Bravo bravo = new Bravo(1, "Один");
 
             bravo.Show();
